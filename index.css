@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.container{
+    width: 93vw;
+    margin: 0 auto;
+}
+
+header{
+    
+    width: 100%;
+    
+    color: rgb(172, 172, 172);
+}
+
+.page-title{
+    float: left;
+    line-height: 80px;
+    opacity: 0.5;
+}
+
+.menu-icon {
+    
+    opacity: 0.7;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    float: right;
+    font-size: 50px;
+    padding: 15px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 40px;
+    border: black solid 3px;
+    display: none;
+    
+  }
+
+.header-list{
+    float: right;
+    
+}
+
+.header-list li{
+    display: none;
+    float: left;
+    padding-right: 10px;
+}
+
+.top-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(img_77d68debc9d07e586174db513d3e8577411216.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: dotted 2px black;
+    border-top: dashed 2px black;
+}
+
+.nandarou{
+    position: absolute;
+    bottom: 25vh;
+    right: 10px;
+}
+
+.nandarou h1{
+    font-family:sans-serif;
+    padding: 3px 10px;
+}
+
+.about-wrapper{
+    width: 100%;
+    height: 150vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.about-title{
+    color: rgb(100, 216, 237);
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.about-title h2{
+    display: inline-block;
+}
+.about-dis{
+    width: 100%;
+}
+
+.about-dis img{
+    width: 90vw;
+    position: relative;
+    left: 0;
+    margin: 20px 0;
+    border: dashed 5px rgb(32, 15, 94);
+}
+
+.about-dis p{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 80px;
+}
+
+.about-dis span {
+    color: rgb(100, 216, 237);
+}
+
+.recommends-wrapper{
+    padding-top: 20px;
+    height: 160vh;
+    background-color: rgb(255, 251, 0);
+    text-align: center;
+    border-bottom: dashed 2px black;
+    border-top: dashed 2px black;
+}
+
+.recommends-wrapper h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.recommend-lists li{
+    padding-bottom: 50px;
+}
+
+.recommend-lists iframe{
+    width: 100%;
+    height: 200px;
+}
+
+.recommend-lists p{
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.border{
+    color: rgb(56, 56, 56);
+    margin-top: 40px;
+}
+
+footer{
+    padding-top: 50px;
+    background-color: black;
+    height: 80vh;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-list li{
+    padding-bottom: 40px;
+}
+
+
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
